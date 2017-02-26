@@ -13,7 +13,7 @@ app.use(function(req, res, next) {
 })
 
 app.get('/', function(req, res) {
-  res.send("Usage: /scrape")
+  res.send("Usage: /date")
 })
 
 app.get('/date', function(req, res) {
